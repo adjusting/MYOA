@@ -39,29 +39,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MeF-2P-PRY">
-                                <rect key="frame" x="16" y="64" width="343" height="553"/>
+                                <rect key="frame" x="16" y="64" width="343" height="523"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcf-OL-BPd">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lcf-OL-BPd">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="343"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <string key="text">An immense tiger wakes in an empty room.
+
+A door opens into a hallway…
+
+What should she do?</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6b-Li-xBS">
-                                        <rect key="frame" x="0.0" y="343" width="343" height="180"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="0.0" y="343" width="343" height="148"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Leap through the door and roar!"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKU-za-iGJ">
-                                        <rect key="frame" x="0.0" y="523" width="343" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="0.0" y="491" width="343" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Stalk to the door, peek down the hallway"/>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VYi-qT-9rd" firstAttribute="top" secondItem="MeF-2P-PRY" secondAttribute="bottom" constant="50" id="CLe-oJ-fc7"/>
+                            <constraint firstItem="VYi-qT-9rd" firstAttribute="top" secondItem="MeF-2P-PRY" secondAttribute="bottom" constant="80" id="CLe-oJ-fc7"/>
                             <constraint firstItem="MeF-2P-PRY" firstAttribute="leading" secondItem="M16-Kg-62Z" secondAttribute="leadingMargin" id="Qcj-K4-NOf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MeF-2P-PRY" secondAttribute="trailing" id="dxq-As-GsY"/>
                             <constraint firstItem="MeF-2P-PRY" firstAttribute="top" secondItem="cVD-wR-aW9" secondAttribute="bottom" id="ft2-Pe-iiE"/>
